@@ -37,3 +37,13 @@ puts ages[1..3]
 
 puts ages[-1]
 # This will return the last index, 26 will return
+
+#Addional Array Method
+
+nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+nums.insert(5, 1000000)
+# This will insert that object to that prefered index position. 1000 will now be indexed at 5
+puts nums
+
+
