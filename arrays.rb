@@ -21,3 +21,19 @@ puts booleans.unshift(unfunny = false)
 
 #Open-ended
 
+ages = [14, 17, 21, 23, 24, 26]
+
+puts ages[0]
+# 14 is indexed at 0, 14 will return
+
+puts ages[4]
+# 24 is indexed at 4, 24 will return
+
+puts ages.index(17)
+# 17 is indexed at 1, 1 will return
+
+puts ages[1..3]
+# This will return index 1, 2 & 3 so 17, 21 and 23 will return
+
+puts ages[-1]
+# This will return the last index, 26 will return
